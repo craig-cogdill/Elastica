@@ -11,10 +11,16 @@
             "homepage": "http://ruflin.com/"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/craig-cogdill/elasticsearch-php"
+        }
+    ],
     "require": {
         "php": "^7.0",
         "psr/log": "~1.0",
-        "craig-cogdill/elasticsearch": "7.0.0"
+        "elasticsearch/elasticsearch": "7.0.0.x-dev"
     },
     "require-dev": {
         "aws/aws-sdk-php": "~3.0",
